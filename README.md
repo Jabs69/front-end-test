@@ -36,7 +36,7 @@ son inutiles en dispositivos mobiles, pueden afectar fuertemente a usuarios que 
 rentalizar la carga y rendimiento, esto se puede solucionar por medio de del atributo sizes y srcset, pero requiere de algo de
 tiempo para adaptar cada image a los tamaños de pantalla apropiados.
 
-2. Uso de <svg> dentro de <img>: la mayoria de los svg fueron directamente cargados por medio del src de la etiqueda <img>, dado
+2. Uso de svg dentro de img: la mayoria de los svg fueron directamente cargados por medio del src de la etiqueda img, dado
 que el codigo de estos podia ocupar una buena cantida de tamaño del html, haciendo mas dificil de leer y depurar este codigo
 lastimosamente este acercamiento hace que perdamos la capacidad de animar y manipular los svg por medio de sus propiedades o CSS
 esto bien podria solucionarse con el siguiente punto que expondre.
