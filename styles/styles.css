@@ -327,7 +327,7 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   grid-auto-flow: dense;
   justify-content: center;
-  gap: 10px;
+  gap: .6rem;
   width: 98%;
 
 }
@@ -357,16 +357,17 @@ footer {
 .contact-section {
 
   padding: 2rem;
-  background-color: #dc2626;
+  background-color: var(--main-color);
   color: #ffffff;
+  border-top: 1px solid #fff;
 
 }
 
 .contact-section h2 {
 
-  margin-bottom: 30px;
+  margin-bottom: 1.6rem;
   text-align: left;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 600;
 
 }
